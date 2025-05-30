@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BookCartSuite]">
+  <test thread-count="5" name="Full Checkout Flow(failed)">
+    <classes>
+      <class name="com.bookcart.tests.CheckoutTest">
+        <methods>
+          <include name="proceedToCheckout"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bookcart.tests.CheckoutTest -->
+      <class name="com.bookcart.tests.SearchTest">
+        <methods>
+          <include name="searchHarryPotterBook"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bookcart.tests.SearchTest -->
+      <class name="com.bookcart.tests.CartTest">
+        <methods>
+          <include name="addToCart"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bookcart.tests.CartTest -->
+    </classes>
+  </test> <!-- Full Checkout Flow(failed) -->
+</suite> <!-- Failed suite [BookCartSuite] -->

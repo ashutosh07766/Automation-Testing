@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="BookCart Test Suite" >
+    <test name="Add to Cart and Checkout Test">
+        <classes>
+            <class name="com.bookcart.tests.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>
